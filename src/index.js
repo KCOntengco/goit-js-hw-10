@@ -7,7 +7,7 @@ const errorEl = document.querySelector(".error");
 
 errorEl.classList.add("is-hidden");
 
-//CREATE THE OPTIONS
+//OPTIONS
 function chooseBreed() {
 	fetchBreeds()
 		.then((data) => {
